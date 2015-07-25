@@ -44,6 +44,8 @@ fBodyGyroJerkMag
 The suffix XYZ denotes that there are signals in the X, Y and Z directions, with separate suffixes ‘X’, ‘Y’, and ‘Z’  respectively.
 The prefixes ’t’ and ‘f’ denote time and frequency domain signals.
 
+I should be noted that since all the measurement variables in the original data set have been normailized, no units are applicable.
+
 Many quantities have been estimated from these signals, such as ‘mean()’, ‘std()’ , ‘max()’, ‘min()’ and a host of others. These labels were then suffixed to the variables names as explained above. The data sets contained meansurement for 561 variables for 30 subjects performing the 6 activities WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING and LAYING.
 
 For the course project the data sets first had to be combined.
